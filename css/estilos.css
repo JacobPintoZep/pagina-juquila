@@ -1,0 +1,376 @@
+body{
+    background-color: rgb(255, 234, 252);
+}
+
+/* contador */
+#countdown {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 200px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic; */
+  }
+
+/* NAVBAR */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #ffffff;
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #000000;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #ff0101;
+    transition: .5s; 
+    color: #fff;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+section{
+    background: url(fondo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+/* cajas */
+  .square {
+    width: 450px;
+    height: 450px;
+    background-color: #ffffff;
+    border: 10px solid #ff0000;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .square h2 {
+    margin-top: 0;
+    font-size: 30px;
+    font-style: initial;
+    
+  }
+  
+  .square li a{
+    margin-bottom: 0;
+    font-size: 25px;
+    font-style: italic;
+    color: #000000;
+    text-align: center;
+  }
+  
+  .squaree {
+    width: 500px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 8px solid #ff0000;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .square h1 {
+    margin-top: 0;
+    font-size: 70px;
+    color: #000000;
+    
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Cards*/
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1700px;
+	margin: auto;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #000000;
+    font-size: 30px;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-9%);
+}
+.card img{
+	width: 100%;
+	height: 500px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #353535;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #ff0000;
+	border: 1px solid #ff0000;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #ff0000;
+	color: #fff;
+}
+
+/* box */
+.container-box{
+	width: 100%;
+	display: flex;
+	max-width: 1700px;
+	margin: auto;
+}
+
+.box{
+	width: 100%;
+	margin: 20px;
+	border-radius: 40px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+  border: 10px solid #ff0000;
+}
+.box:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-9%);
+}
+.box img{
+	width: 100%;
+	height: 100px;
+}
+.box .contenido-box{
+	padding: 15px;
+	text-align: center;
+}
+.box .contenido-box h2{
+	margin-bottom: 15px;
+	color: #000000;
+}
+.box .contenido-box li a{
+	line-height: 1.8;
+	color: #505050;
+	font-size: 25px;
+	margin-bottom: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.box .contenido-box p{
+	line-height: 1.5;
+	color: #505050;
+	font-size: 27px;
+	margin-bottom: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* gifs */
+.gifbox {
+  display: flex;
+}
+
+.gifbox .gif1{
+  margin-left: 500px;
+}
+
+.gifbox .gif2 {
+  flex: 0;
+  margin-right: 80px; /* Ajusta el espacio entre las imágenes */
+}
+
+.gif4{
+  margin-left: 700px;
+}
+
+.btn {
+  width: 200px;
+  height: 100px;
+  margin-left: 900px;
+  display: inline-block;
+  padding: 35px 35px;
+  background-color: #ffffff;
+  color: #ff0000;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 5px solid #ff0000;
+  font-size: 27px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+/* boton que direcciona a la cuenta */
+.btn:hover {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.hearts .heart2{
+  margin-left: 150px;
+}
+
+/* caja de mensaje big */
+
+.boxheart{
+	width: 1800px;
+	margin: 70px;
+	border-radius: 40px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+  border: 10px solid #ff0000;
+}
+/* .boxheart:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-9%);
+} */
+.boxheart img{
+	width: 100%;
+	height: 500px;
+}
+.boxheart .contenido-boxheart{
+	padding: 15px;
+	text-align: center;
+}
+.boxheart .contenido-boxheart h2{
+	margin-bottom: 15px;
+	color: #000000;
+}
+.boxheart .contenido-boxheart li a{
+	line-height: 1.8;
+	color: #505050;
+	font-size: 25px;
+	margin-bottom: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.boxheart .contenido-boxheart p{
+	line-height: 1.5;
+	color: #505050;
+	font-size: 25px;
+	margin-bottom: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* caja de text para img de matrimonio */
+.container-boxMA{
+	width: 100%;
+	display: flex;
+	max-width: 1700px;
+	margin: auto;
+}
+
+.boxMA{
+	width: 100%;
+	margin: 20px;
+	border-radius: 40px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+  border: 10px solid #ff0000;
+}
+.boxMA:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-9%);
+}
+.boxMA .contenido-boxMA{
+	padding: 15px;
+	text-align: center;
+}
+
+.boxMA .contenido-boxMA p{
+	line-height: 1.5;
+	color: #505050;
+	font-size: 27px;
+	margin-bottom: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* img CertMA */
+
+.imgMA{
+  margin-left: 450px;
+}
